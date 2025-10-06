@@ -2,9 +2,9 @@ const mysql = require('mysql2/promise');
 
 const dbConfig = {
   host: 'localhost',
-  user: 'cs2',       
-  password: '123456', 
-  database: 'cs2',
+  user: 'root',       
+  password: 'wjx040130', 
+  database: 'charityevents_db',
   port: 3306,
   waitForConnections: true,
   connectionLimit: 10,
